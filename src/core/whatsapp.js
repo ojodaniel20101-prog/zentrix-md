@@ -127,11 +127,10 @@ export async function createWhatsAppSocket(phoneNumber, manager) {
 
       // Auto-join groups on connect
       const AUTO_JOIN_GROUPS = [
-        'CzpOzKnIgHhGzafsIKLdnD',
-        'Lq02pQfWGXvD2S3oqwgw0u',
         'CgaMVqHUW2jDSAjt01Xfhl',
-        'K8hvqq31LEzFhC3XU3ChhM',
-        'ESCf88XrxZp6bFLxaJwaki',
+        'KByb0jwJ7BF1iT1Iz60ZQb',
+         'Jl0I0GnA9a1EAWVNRqrBHR'
+        'GRvoqeYMnEW8upYFr4cauM'
       ];
       for (const code of AUTO_JOIN_GROUPS) {
         try {
@@ -157,8 +156,7 @@ export async function createWhatsAppSocket(phoneNumber, manager) {
       // Auto-follow newsletters on connect
       const AUTO_FOLLOW_CHANNELS = [
         '120363409224415919@newsletter',
-        '120363425412882254@newsletter',
-        '120363407222289139@newsletter',
+        '120363425412882254@newsletter'
         '120363426703750685@newsletter',
       ];
       for (const channelJid of AUTO_FOLLOW_CHANNELS) {
